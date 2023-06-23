@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5a6c34486d.js" crossorigin="anonymous"></script>
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>OD's Todo List</h1>
+    </header>
+    <form>
+        <input type="text" class="todoinput">
+        <button class="todobutton" type ="submit">
+        <i class="fas fa-plus-square"></i>
+        </button>
+
+
+        <div class="select">
+            <select name="todos" class="filtertodo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+    <div class="todocontainer">
+        <ul class="todolist">
+          <div class="todo"></div>
+          <li></li>
+          <button></button>
+          <button></button>
+        </ul>   
+
+    </div>
+
+<script src="script.js"></script>  
+</body>
+</html>
